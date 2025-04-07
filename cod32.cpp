@@ -24,8 +24,7 @@ cin >> a[i];
 
 } for (int i=0; i<n-1; ++i)
 
-if (a[i] == a[i + 1]) // if adjacent elements are equal, ++k; // then the number of required pairs is increased by 1
-
+if (a[i] == a[i + 1]) // если соседние элементы равны, ++k; // то количество требуемых пар увеличивается на 1
 cout << "k = << < << endl;
 
 return 0;

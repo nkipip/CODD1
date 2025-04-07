@@ -22,7 +22,7 @@ else
 
 cout << "function not defined\n";
 
-goto metka; // transfer control to the mark
+goto metka; // передаеь управление щтметке
 
 }
 

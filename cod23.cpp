@@ -6,17 +6,16 @@ int main()
 
 {
 
-int a[20]; // declare a static array,
+int a[20]; // объявить статический массив,
 
-// setting the maximum dimension
-
+// установка максимального размера
 int n;
 
 cout << "n = ";
 
-cin >> n; // entered the number of array elements
+cin >> n; // введено количество элементов массива
 
-for (int i=0;i < n; ++i) // input and processing of data
+for (int i=0;i < n; ++i) // ввод и обработка данных
 
 {
 
@@ -24,17 +23,17 @@ cout << "a[" << i << "] = ";
 
 cin >> a[i];
 
-// input of the next element
+// ввод следующего элемента
 
 if (a[i] < 0)
 
-// if the i-th element of the array is negative,
+// если i-й элемент массива отрицательный,
 
-a[i]=0; // replace it with zero
+a[i]=0; // замените его на ноль
 
 }
 
-for (int i=0;i < n; ++i) // output the array to the screen
+for (int i=0;i < n; ++i) // выведите массив на экран
 
 cout << a[i] << "\t";
 

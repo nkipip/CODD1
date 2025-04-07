@@ -8,7 +8,7 @@ int main()
 
 int b = 50;
 
-&b; // 6 pointer a wrote the address of the variable in
+&b; //6 указатель a записывает адрес переменной в
 
 int *a
 

@@ -16,15 +16,15 @@ while (I <= n)
 
 {
 
-// while i is less than or equal to n
+// пока i меньше или равно n
 
 cout<< i<< "\t";
 
-// display the value of i on the screen
+// отображеем значение i на экране
 
 ++i;
 
-// increase i by one
+// увеличить i на единицу
 
 }
 

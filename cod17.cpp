@@ -2,9 +2,9 @@ int b[10]; /
 
 /array declaration in
 
-// define a pointer to mun int and set
+// определите указатель на mun int и установите
 
-// it to the zero element of the array in
+// это относится к нулевому элементу массива в
 
 int *p = &b[0];
 
@@ -14,26 +14,25 @@ for (int i = 0; i < 10; i++) // input array elements
 
 cout << "b[" << i << "] = ";
 
-// we place the entered value at the address of the pointer p and shift it
+// мы помещаем введенное значение по адресу указателя p и сдвигаем его
 
-// pointer to the next element of the array
+// указатель на следующий элемент массива
 
 cin >> *p++;
 
 }
 
-// re-set the pointer to the zero element of the array in
+// повторно установите указатель на нулевой элемент массива в
 
 p = &b[0];
 
 for (int i=0; i < 10; i++)
 
-// output array elements
+// элементы выходного массива
 
-// display the value stored at the address
+// отобразите значение, сохраненное по адресу
 
-// pointer p, and move the pointer to the next element
+// наведите указатель p и переместите указатель на следующий элемент
 
-// array
-
+// массив
 cout << "b[" << i << "] = << *p++ << endl;

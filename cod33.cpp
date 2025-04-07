@@ -6,9 +6,9 @@ int main()
 
 {
 
-int a = 50; // integer variable a
+int a = 50; // целочисленная переменная a
 
-int &b= a; // reference to an alternative name for variable a
+int &b= a; // ссылка на альтернативное имя переменной a
 
 cout << "a\t b\n";
 

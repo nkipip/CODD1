@@ -24,16 +24,15 @@ cout << "a[" << i << "] = ";
 
 cin >> a[i];
 
-// initially we set the element with the number in the minimum
+// изначально мы устанавливаем элемент с минимальным номером
 
-// and the maximum and remember its number
+// причем максимальный и запомните его номер
 
 float min a[0], max a[0];
 
 int nmin 0, nmax 0;
 
-// search for the largest and smallest value in the array and their numbers
-
+// найдите наибольшее и наименьшее значения в массиве и их номера
 for (int i=1; i < n; ++i)
 
 {
@@ -58,15 +57,15 @@ nmax = 1;
 
 }
 
-// 8 position of the smallest element we write the value of the largest
+// 8 в положение самого маленького элемента мы записываем значение самого большого
 
 a[nmax] min;
 
-// 6 position of the largest element we write the value of the smallest
+// 6 в положение самого большого элемента записываем значение самого маленького
 
 a[nmin] = max;
 
-for (int i=0; i < n; ++1) // display the modified array on the screen
+for (int i=0; i < n; ++1) // отобразите измененный массив на экране
 
 cout << a[i] << "\t";
 

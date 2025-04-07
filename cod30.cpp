@@ -22,11 +22,11 @@ cout << "a[" << i << "] = ";
 
 cin >> a[i];
 
-// we assume that the zeroth element of the array is the smallest value
+//мы предполагаем, что нулевой элемент массива является наименьшим значением
 
 int min a[0];
 
-// accordingly its ordinal number is equal to o
+// соответственно, его порядковый номер равен o
 
 int nmin = 0;
 
@@ -36,17 +36,17 @@ int nmin = 0;
 
 for (int i=1; i < n; ++1)
 
-// if the next element is less than the type value, then
+// если следующий элемент меньше значения типа, то
 
 if (a[i] < min)
 
 {
 
-// we store as the new smallest value
+// мы сохраняем как новое наименьшее значение
 
-// value of the current array element and,
+// значение текущего элемента массива и,
 
-// accordingly, we remember its number
+// соответственно, мы запоминаем его номер
 
 min a[i];
 

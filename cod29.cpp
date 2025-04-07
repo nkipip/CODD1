@@ -24,7 +24,7 @@ cout << "a[" << i << "] = ";
 
 cin >> a[i];
 
-if (!(a[i]%2)) // if the remainder when dividing an element by 2 is equal to {
+if (!(a[i]%2)) // если остаток при делении элемента на 2 равен {
 
 s += a[i]; /
 
@@ -32,15 +32,15 @@ s += a[i]; /
 
 ++k;
 
-// and increase the number of even elements by 1
+// и увеличьте количество четных элементов на 1
 
 }
 
 }
 
-// if k is not zero, then there are even numbers in the sequence
+// если k не равно нулю, то в последовательности есть четные числа
 
-// and you can calculate their arithmetic mean
+// и вы можете вычислить их среднее арифметическое
 
 if (k)
 

@@ -12,9 +12,9 @@ cout << "n = ";
 
 cin >> n;
 
-for (int i=1; i <= n; i++) // for i from 1 to n with step 1
+for (int i=1; i <= n; i++) // для i от 1 до n с шагом 1
 
-cout<< i << "\t"; // display the value of i
+cout<< i << "\t"; // мотобразить значение i
 
 return 0;
 

@@ -36,7 +36,7 @@ a[i][j] = 1+j;
 
 print(a, 3, 4);
 
-// freeing memory
+// освобождение памяти
 
 for (int i=0;i < n; ++i)
 

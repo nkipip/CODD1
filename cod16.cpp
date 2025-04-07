@@ -1,6 +1,6 @@
-int b[10]; // array declaration
+int b[10]; // объявление массива
 
-for (int i = 0; i < 10; i++) // input array elements
+for (int i = 0; i < 10; i++) // элементы входного массива
 
 {
 
@@ -10,6 +10,6 @@ cin >> b[i];
 
 }
 
-for (int i = 0; i < 10; i++) // display array elements on screen
+for (int i = 0; i < 10; i++) // отображение элементов массива на экране
 
 cout << "b[" << i << "] = " << b[i] << "\n";

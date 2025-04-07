@@ -36,15 +36,14 @@ for (int j = 0; j < m; ++j)
 
 a[i][j] = i + j;
 
-// processing a two-dimensional array
-
+// обработка двумерного массива
 for (int i=0; i < n; ++i)
 
-// line by line:
+//строка за строкой:
 
-// as an argument to the print function
+//в качестве аргумента функции print 
 
-//pass a pointer to the i-th row
+//передайте указатель на i-ю строку
 
 print(a[i], m);
 

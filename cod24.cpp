@@ -12,11 +12,11 @@ cout << "n = ";
 
 cin >>n;
 
-do // display i on the screen and then increment
+do // выведите i на экран, а затем увеличьте
 
-cout<< i++<< "\t"; // its value by one
+cout<< i++<< "\t"; // его значение на единицу
 
-while (i<= n); // while i is less than or equal to n
+while (i<= n); // в то время как i меньше или равно n
 
 return 0;
 

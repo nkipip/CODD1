@@ -6,6 +6,6 @@ int a = 5;
 
 return &a;
 
-// it is forbidden!!!
+// это запрещено!!!
 
 }

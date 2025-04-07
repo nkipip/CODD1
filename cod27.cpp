@@ -20,7 +20,7 @@ cout << "a[" << i << "] = ";
 
 cin >> a[i];
 
-s += a[i]; // adding the value of the array element to the sum
+s += a[i]; // добавление значения элемента массива к сумме
 
 }
 

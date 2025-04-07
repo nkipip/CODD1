@@ -12,7 +12,7 @@ for (int i=1; i<= 4; ++i, cout << endl) // outer for loop
 
 inner loop
 
-cout << "\t"; // body of the inner loop
+cout << "\t"; // тело внутреннего цикла
 
 return 0;
 

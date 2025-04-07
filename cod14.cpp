@@ -12,7 +12,7 @@ cout << "adress \t *a\n";
 
 cout << a << "\t" << *a << endl;
 
-// 1 increases by 1 the value stored at the address of pointer a
+// 1 увеличивает на 1 значение, хранящееся по адресу указателя a
 
 (*a)++;
 
@@ -20,13 +20,13 @@ cout << a << "\t" << *a << endl;
 
 cout << a << "\t" << *a << endl;
 
-// 2 the pointer value is changed by sizeof(int)
+// 2 значение указателя изменяется на sizeof(int)
 
 *(a++);
 
 cout << a << "\t" << a << endl;
 
-// 3 taking into account the priority of operations and ++ analog of line 2
+// 3 с учетом приоритета операций и ++ аналог строки 2
 
 *a++;
 
