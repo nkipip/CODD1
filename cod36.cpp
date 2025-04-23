@@ -2,7 +2,7 @@
 
 using namespace std;
 
-/* the static array ta and its dimensions are passed to the function as parameters: n is the number of rows,
+/* Статический массив TA и его размерности передаются в функцию в виде параметров: n — количество строк
 
 m number of columns*/
 
